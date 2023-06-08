@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Roboto';
+}
+
+body {
+    background-color: rgb(1, 16, 13);
+    color: rgb(154, 195, 184);
+}
+
+section {
+    height: 100vh;
+}
+
+.main-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text {
+    font-size: 5vw;
+    font-weight: 700;
+    color: #006838;
+    margin-top: 2%;
+}
+
+.center-logo {
+    width: 50%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+hr {
+    width: 90%;
+    opacity: 0.4;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.social-text {
+    margin: 5%;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.social-link {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #39B54A;
+}
